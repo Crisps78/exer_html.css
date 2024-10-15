@@ -1,86 +1,81 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+:root {
+  --font01: Verdana, Geneva, Tahoma, sans-serif;
+  --font02: "EB Garamond", serif;
+  --font03: "Dancing Script", cursive;
 }
 
-html,body {
-    background-color: darkgray;
-    min-height: 100vh;
-    
+html,
+body {
+  background-color: rgb(138, 135, 135);
+  min-height: 100vh;
+  font-family: var(--font01);
 }
 
 header {
-    background-color: black;
-    color: aliceblue;
-    text-align: center;
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  font-family: var(--font02);
 }
 
 header > h1 {
-    font-size: 50px;
-    padding-top: 50px;
-    font-variant: small-caps;
-
+  font-size: 10vw;
+  padding-top: 50px;
+  font-variant: small-caps;
 }
 
 header > p {
-    padding-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 a {
-    text-decoration: none;
-    color: aliceblue;
-    font-weight: bolder;
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: bolder;
 }
 
 a:hover {
-    text-decoration: underline;
-    color: rgb(80, 158, 222);
-    
+  text-decoration: underline;
+  color: rgb(80, 158, 222);
 }
 section {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    padding-left: 30px;
-    line-height: 2em;
-    font-size: 18px;
-}
-
-section.img01{
-    background-color: rgba(195, 189, 189, 0.258);
-    background-image: url(./imagens/background001.jpg);
-    background-position: right;
-    color: aliceblue;
-    
-}
-
-section.imagem {
-    background-color: rgba(195, 189, 189, 0.258);
-    background-image: url(./imagens/background002.jpg);
-    background-position: right;
-    color: aliceblue;
-}
-
-section.imagem {
-    background-color: rgba(195, 189, 189, 0.258);
-    background-image: url(./imagens/gettyimages-1484252376.webp);
-    background-position: right;
-    color: aliceblue;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  padding-left: 30px;
+  line-height: 2em;
+  font-size: 3.5vw;
+  font-family: var(--font03);
 }
 
 section.conteudo {
-    background-color: aliceblue;
-    color: black;
+  background-color: rgb(228, 235, 189);
+  color: black;
 }
 
-section > p {
-    background-color: rgba(194, 190, 190, 0.227);
-    width: 400px;
+section.imagem {
+  background-color: rgb(60, 57, 57);
+  color: rgb(0, 0, 0);
+}
+
+section.imagem > p {
+   display: inline-block; 
+   padding: 5px;
+  background-color: rgba(156, 162, 162, 0.528);
+  
 }
 
 footer {
-    background-color: black;
-    color: aliceblue;
-    padding: 10px;
-    text-align: center;
+  background-color: black;
+  color: aliceblue;
+  padding: 10px;
+  text-align: center;
+  font-size: 1em;
 }
